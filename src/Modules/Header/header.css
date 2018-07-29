@@ -1,0 +1,102 @@
+.headerContainer{
+  background: linear-gradient(rgb(247, 228, 3), rgba(142, 0, 0, 0.5)), url('headerImg1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerContainer .header{
+  background: rgba(82, 82, 82, 0.65);  
+  position: fixed;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .companyAsset{
+  flex: 1;
+  padding-left: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: white;
+}
+
+.header .pageNavigations{
+  flex: 0.8;
+  padding-right: 2rem;
+}
+
+.header .pageNavigations .pageTab{
+  /* background: rgba(239, 239, 239, 0.7); */
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.headerContainer .headerBody{
+  padding: 6rem 2rem 0rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerBody .logo{
+  width: 100%;
+  height: 30%;
+}
+
+.headerBody .logo > img{
+  width: 30rem;
+  padding-top: 10rem;
+  padding-left: 10rem;
+}
+
+.headerBody .information{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.headerBody .verticalThinLine{
+  height: 30%;
+  width: 2px;
+  background: white;
+}
+
+.headerBody .textualInformation{
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+  position: absolute;
+  left: -1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 100;
+  color: white;
+}
+
+@keyframes slide {
+  100% { left: 5rem; }
+}
+
+.headerBody .smallTitle{
+  font-size: 3rem;
+}
+
+.headerBody .bigTitle{
+  font-size: 8rem;
+}
+
+.headerBody .description{
+  font-size: 1.5rem;
+}
+
+.headerBody .actionButton{
+
+}

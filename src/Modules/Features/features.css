@@ -1,0 +1,58 @@
+.featuresParent{
+  margin: 3.5rem 2rem;
+}
+.featuresParent > .title{
+  font-size: 3rem;
+}
+
+.featuresParent > .description{
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.featuresParent > .title, .featuresParent > .description{
+  text-align: center;
+}
+
+.features{
+  /* height: 40rem; */
+  border-bottom: 1px solid black;
+  padding: 4rem 2rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: #545454;
+}
+
+.features .feature-box{
+  transition: all .2s ease-in-out;
+  width: 32rem;
+  height: 30rem;
+  padding: 0rem 3rem;
+  margin: 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.feature-box > *{
+  margin: 1rem 0rem;
+}
+
+.feature-box .image{
+  width: 10rem;
+  height: 10rem;
+  border: 1px dashed gray;
+}
+
+.feature-box .title{
+  font-size: 2.5rem;
+}
+
+.feature-box .description{
+  font-size: 1.8rem;
+}
