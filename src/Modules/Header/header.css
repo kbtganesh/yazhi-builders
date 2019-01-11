@@ -15,7 +15,6 @@
 }
 
 .header .companyAsset{
-  flex: 1;
   padding-left: 2rem;
   font-size: 2rem;
   font-weight: lighter;
@@ -23,7 +22,6 @@
 }
 
 .header .pageNavigations{
-  flex: 0.8;
   padding-right: 2rem;
 }
 

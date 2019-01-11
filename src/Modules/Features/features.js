@@ -13,7 +13,6 @@ class Features extends Component {
         <Feature title='Feature Title Here' desc='Lorem ipsum karis seira ovsie parue ekary lanveir thora' />
         <Feature title='Feature Title Here' desc='Lorem ipsum karis seira ovsie parue ekary lanveir thora' />
         <Feature title='Feature Title Here' desc='Lorem ipsum karis seira ovsie parue ekary lanveir thora' />
-        <Feature title='Feature Title Here' desc='Lorem ipsum karis seira ovsie parue ekary lanveir thora' />
       </div>
       </div>
     );

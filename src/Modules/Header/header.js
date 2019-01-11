@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import header from './header.css';
-import logo from './yazhi_logo.png';
+import logo from './yazhi.png';
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -9,13 +9,14 @@ class Header extends Component {
   }
   render() {
     let height = window.innerHeight
+    let width = window.innerWidth;
     console.log('height: ', height);
     return (
       <div className='headerContainer' style={{ height: height + 'px' }}>
         <div className="header">
           <div className="companyAsset"><lable className="companyName">Yazhi Builders</lable></div>
           <div className="pageNavigations">
-            {this.pageNavigations.map(item => <label className='pageTab'>{item.toUpperCase()}</label>)}
+            {width>500?this.pageNavigations.map(item => <label className='pageTab'>{item.toUpperCase()}</label>):''}
           </div>
         </div>
         <div className="headerBody">
